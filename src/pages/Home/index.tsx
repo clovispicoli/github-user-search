@@ -1,4 +1,5 @@
 import React from 'react';
+import ButtonIcon from 'core/components/ButtonIcon';
 import './styles.css';
 
 const Home = () => {
@@ -26,6 +27,9 @@ const Home = () => {
                         </a>
                     </p>
                 </div>
+            </div>
+            <div className="home-content-button-icon">
+                <ButtonIcon />
             </div>
         </div>
     );
