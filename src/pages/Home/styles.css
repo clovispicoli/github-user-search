@@ -1,39 +1,38 @@
-.home-container {
-    padding-top: 115px;
-}
-
-.home-content-title {
-    font-family: "Red Hat Display";
-    font-weight: 700;
+.title-container {
+    width: 580px;
+    height: 130px;
+    margin: 65px 0px 24px 120px;
+  }
+ 
+  .home-title {
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: bold;
     font-size: 48px;
     line-height: 64px;
     display: flex;
     align-items: center;
     letter-spacing: 0.02em;
     color: #062847;
-}
-
-.home-content-subtitle {
-    margin-top: 25px;
-}
-
-.home-content-paragraphs {
-    font-family: "Red Hat Display";
+  }
+ 
+  .home-paragraph-container {
+    width: 610px;
+    height: 215px;
+    margin: 0 0 56px 120px;
+  }
+ 
+  .home-paragraph {
+    font-family: "Red Hat Display", sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 36px;
-    color: #5A6774;
-}
-
-.home-content-paragraphs-email {
-    color: #1890FF;
-    text-decoration: none;
- }
-
- a:link {
-    text-decoration: none;
- } 
-
- .home-content-button-icon {
-    margin-top: 50px;
- } 
+    color: #5a6774;
+  }
+ 
+  span {
+    color: #1890ff;
+  }
+ 
+  .btn-container {
+    margin-left: 120px;
+  }

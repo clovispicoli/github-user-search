@@ -1,13 +1,14 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import './styles.css';
 
 const Header = () => {
    return (
-      <header className="header-container">
-         <div className="header-content">
-            <span className="header-logo-text">BootCamp DevSuperior</span>
-         </div>
-      </header>
+      <nav className="navbar">
+         <Link to='/'>
+             <h1 className='title'>Bootcamp DevSuperior</h1>
+         </Link>
+      </nav>
    );
 }
 
