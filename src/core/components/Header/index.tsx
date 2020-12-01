@@ -6,7 +6,7 @@ const Header = () => {
    return (
       <nav className="navbar">
          <Link to='/'>
-             <h1 className='title'>Bootcamp DevSuperior</h1>
+            <h1 className='title'>Bootcamp DevSuperior</h1>
          </Link>
       </nav>
    );
